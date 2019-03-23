@@ -43,6 +43,6 @@ That's it.
 - the logs for TensorBoard are stored under **/tmp/retrain_logs/** (copy them to the host system or forward the TensorBoard port to the host system using the docker argument **-p 6006:6006**)
 
 ## TODOs
-[ ] create new Dockerfile  
-[ ] create scripts to start training and testing inside the Docker container  
-[ ] create script to start Docker container with TensorBoard port forwarding
+- [ ] create new Dockerfile  
+- [ ] create scripts to start training and testing inside the Docker container  
+- [ ] create script to start Docker container with TensorBoard port forwarding

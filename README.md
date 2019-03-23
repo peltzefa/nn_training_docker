@@ -7,6 +7,7 @@ This repo contains all the necessary scripts and information to train an image c
 Thanks to [teavanist (Medium)](https://medium.com/@teavanist/image-classification-using-tensorflow-on-docker-windows-bd7824b05fee)  
 
 ### Filesystem
+Create a folder called **data** under the root of the repo. See below.
 ```bash
 ├───data
 │   ├───bear
@@ -22,7 +23,7 @@ Thanks to [teavanist (Medium)](https://medium.com/@teavanist/image-classificatio
         testimage1.jpg
         ...
 ```
-INFO: The image classes are created from sub folders of the data folder. Example: bear and cat.
+INFO: The image classes are created from sub folders inside the data folder. Example: bear and cat.
 1. create folders for every class (name of folder is the label)
 2. put images of the class inside them 
 

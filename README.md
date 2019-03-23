@@ -32,7 +32,7 @@ Thanks to [teavanist (Medium)](https://medium.com/@teavanist/image-classificatio
 - test: ```python scripts/label_image.py --graph=/retrained_graph.pb --labels=/retrained_labels.txt --input_layer=Placeholder --output_layer=final_result --image=/image_classification/newTrainer/testimage1.jpg```
 
 ### get model and labels from docker container
-- copy files
+- copy files ```docker cp <container_id>:/retrained_graph.pb``` and ```docker cp <container_id>:/retrained_labels.txt```
 
 ## other projects
 - https://github.com/llSourcell/tensorflow_image_classifier does not work anymore

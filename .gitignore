@@ -1,4 +1,6 @@
 /data/*
-./idea/*
+.idea/*
+
+.idea/workspace.xml
 
 *.jpg

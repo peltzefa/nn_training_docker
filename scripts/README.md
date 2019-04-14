@@ -23,6 +23,6 @@
 |--random_crop|0|A percentage determining how much of a margin to randomly crop off the training images.|
 |--random_scale'|0|A percentage determining how much to randomly scale up the size of the training images by.|
 |--random_brightness|0|A percentage determining how much to randomly multiply the training image input pixels up or down by.|
-|--tfhub_module|https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1')|Which TensorFlow Hub module to use. For more options, search https://tfhub.dev for image feature vector modules.|
+|--tfhub_module|https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1|Which TensorFlow Hub module to use. For more options, search https://tfhub.dev for image feature vector modules.|
 |--saved_model_dir|''|Where to save the exported graph.|
-|--logging_verbosity'|INFO'|How much logging output should be produced: choices=['DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL']|
+|--logging_verbosity|INFO|How much logging output should be produced: choices=['DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL']|
